@@ -536,13 +536,14 @@ int main()
     Passenger Robin = Passenger("Robin", "210678", "ASD678");
     Passenger Palak = Passenger("Palak", "210378", "ASD378");
     Passenger Abhishek = Passenger("Abhishek", "3234", "325254");
+    Passenger Sulabh = Passenger("Sulabh","210489","AS3565");
+    Passenger Depanshu = Passenger("Depanshu","210334","N23425");
+    Passenger Potter = Passenger("Potter","32925","A34V6N");
 
     newDate Date1 = newDate(3, 5, 2024);
     newDate Date2 = newDate(21, 8, 2024);
     newDate Date3 = newDate(21, 3, 2024);
 
-    // string Name;
-    // cin>>Name;
     cout << Passenger1.getName() << endl;
     Passenger1.updateName("Elon Musk");
     cout << Passenger1.getName() << endl;
